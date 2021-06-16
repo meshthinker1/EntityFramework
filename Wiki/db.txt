@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[tbl_test_audit_trail] (
+    [id]                 UNIQUEIDENTIFIER NOT NULL,
+    [audit_datetime_utc] DATETIME2        NOT NULL,
+    [audit_type]         NVARCHAR (50)    NOT NULL,
+    [audit_user]         NVARCHAR (100)   NOT NULL,
+    [table_name]         NVARCHAR (150)   NULL,
+    [key_values]         NVARCHAR (250)   NULL,
+    [old_values]         NVARCHAR (MAX)   NULL,
+    [new_values]         NVARCHAR (MAX)   NULL,
+    [changed_columns]    NVARCHAR (MAX)   NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+CREATE TABLE [dbo].[tbl_test_role] (
+    [id]   INT           IDENTITY (1, 1) NOT NULL,
+    [name] NVARCHAR (50) NOT NULL,
+    [details] NVARCHAR (150) NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC)
+);
+
+
+
+
+DROP TABLE [dbo].[tbl_test_audit_trail]
+DROP TABLE [dbo].[tbl_test_role]

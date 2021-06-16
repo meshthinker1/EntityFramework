@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test.Integration", "Test.Integration\Test.Integration.csproj", "{4384B0A5-1646-4796-8E60-E35FC2AD6916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wiki", "Wiki", "{323F3E17-0436-46F7-97DE-E04C1CD3D869}"
+	ProjectSection(SolutionItems) = preProject
+		Wiki\db.txt = Wiki\db.txt
+		Wiki\readme.txt = Wiki\readme.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Db", "Db\Db.csproj", "{1A3C3257-2074-4EC1-9F0E-543092B787F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4384B0A5-1646-4796-8E60-E35FC2AD6916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4384B0A5-1646-4796-8E60-E35FC2AD6916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4384B0A5-1646-4796-8E60-E35FC2AD6916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4384B0A5-1646-4796-8E60-E35FC2AD6916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A3C3257-2074-4EC1-9F0E-543092B787F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3C3257-2074-4EC1-9F0E-543092B787F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3C3257-2074-4EC1-9F0E-543092B787F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3C3257-2074-4EC1-9F0E-543092B787F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BA394B5-D94A-498A-B8E8-846396513984}
+	EndGlobalSection
+EndGlobal
